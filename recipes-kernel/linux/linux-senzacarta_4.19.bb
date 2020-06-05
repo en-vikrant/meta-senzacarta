@@ -15,7 +15,7 @@ SRCBRANCH = "warrior"
 LOCALVERSION = "-1.1.0"
 KERNEL_SRC ?= "git://github.com/en-vikrant/linux-senzacarta.git;protocol=https"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "da5cffa240b920fcecacde3f6ccabbdea64df8ad"
+SRCREV = "033e1c2a9e39f43c454beecd9ade82e730c8f26f"
 
 S = "${WORKDIR}/git"
 
